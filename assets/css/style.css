@@ -1,0 +1,15 @@
+
+.navbar {
+	margin: 0;
+}
+
+
+.slide-show-row{
+	background-color: #e26d00;
+	height-min: 200px;
+	border-style: solid;
+	border-width: 5px 0;
+	border-color: #000000;
+	padding: 75px 0 75px 0;
+	text-align: center;
+}
