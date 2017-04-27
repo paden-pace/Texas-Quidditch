@@ -1,6 +1,15 @@
 
+body{
+	background-color: #fdfcf3;
+}
+
 .navbar {
 	margin: 0;
+}
+
+.main-title{
+	text-align: center;
+	margin: 30px auto;
 }
 
 
@@ -11,5 +20,21 @@
 	border-width: 5px 0;
 	border-color: #000000;
 	padding: 75px 0 75px 0;
+	text-align: center;
+}
+
+.position-img{
+	max-height: 300px;
+	max-width: 250px;
+}
+
+.basic-panel{
+	border: solid 3px #d3d3d3;
+}
+
+.panel-heading{
+	border-bottom: solid 3px #d3d3d3;
+	background-color: #c7660c;
+	color: #ffffff;
 	text-align: center;
 }
