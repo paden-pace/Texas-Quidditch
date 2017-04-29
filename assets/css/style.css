@@ -1,6 +1,11 @@
 
 body{
 	background-color: #fdfcf3;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #c06109, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c06109, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c06109, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c06109, #ffffff); /* Standard syntax (must be last) */
 }
 
 .navbar {
@@ -12,9 +17,37 @@ body{
 	margin: 30px auto;
 }
 
+.iframe-div{
+	width: 460px;
+	height: 475px;
+	background-color: #fcfaf7;
+	/*border: solid 3px #000000;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+iframe{
+	width: 420px;
+	height: 335px;
+	margin: 20px 20px auto 20px;
+	border: none;
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.poloroid-text{
+	margin-top: 40px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 32px;
+}
+
+.part-title{
+	text-align: center;
+}
+
 
 .slide-show-row{
-	background-color: #e26d00;
+	background-color: #c7660c;
 	height-min: 200px;
 	border-style: solid;
 	border-width: 5px 0;
@@ -25,7 +58,12 @@ body{
 
 .position-img{
 	max-height: 300px;
-	max-width: 250px;
+	max-width: 175px;
+}
+
+.fly-img{
+	max-height: 500px;
+	max-width: 400px;
 }
 
 .basic-panel{
